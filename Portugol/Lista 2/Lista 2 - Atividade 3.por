@@ -9,7 +9,15 @@ programa
 		 * Se o valor resultante do quadrado do terceiro for >= 1000, imprima-o e finalize;
 		 * Caso contrário, imprima os valores lidos e seus respectivos quadrados.
 		 */
-		 
+		 inteiro um,dois,tres,quatro
+			escreva("Digite um número: ")
+			leia(um)
+			escreva("Digite um número: ")
+			leia(dois)
+			escreva("Digite um número: ")
+			leia(tres)
+			escreva("Digite um número: ")
+			leia(quatro)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 309; 
+ * @POSICAO-CURSOR = 376; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
