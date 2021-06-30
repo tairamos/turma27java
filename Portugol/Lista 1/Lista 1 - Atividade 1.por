@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 programa
 {
 	
 	funcao inicio()
 	{
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 		cadeia nome 
 		real idadeAnos
 		escreva("Digite seu nome:")
@@ -15,8 +23,13 @@ programa
 			//Idade em dias 
 		escreva(idade) 
 		
+<<<<<<< HEAD
 	}
 }
+=======
+	}
+}
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

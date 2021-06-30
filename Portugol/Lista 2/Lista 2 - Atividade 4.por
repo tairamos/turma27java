@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 programa
 {
 	
@@ -8,6 +9,18 @@ programa
 		 */
 	}
 }
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+		/*Faça um sistema que leia um número inteiro e mostre uma mensagem indicando se este número é:
+		 * par ou ímpar, e se é positivo ou negativo.
+		 */
+	}
+}
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 programa
 {
 	
 	funcao inicio()
 	{
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 		/* Elabore um sistema que leia as variáveis C e N, respectivamente código e número de horas trabalhadas de um operário. 
 		*E calcule o salário sabendo que ele ganha R$10,00 por hora. 
 		*Quando o número de horas exceder a 50, calcule o excesso de pagamento armazenando-o na variável 

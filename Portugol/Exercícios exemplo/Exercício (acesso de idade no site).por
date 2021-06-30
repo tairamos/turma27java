@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 programa
 {
 	
@@ -6,6 +7,16 @@ programa
 		inteiro idade
 		inteiro contador=1
 		escreva("Digite sua Idade: ")
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade
+		inteiro contador=1
+		escreva("Digite sua Idade: ")
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 		leia(idade)
 		
 		enquanto (idade < 18){
@@ -24,7 +35,11 @@ programa
 			senao{
 				escreva("Saia do site")
 		}
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> d6fa77950c42ee339a30aee82d49d2871a16156d
 }
 /* $$$ Portugol Studio $$$ 
  * 
