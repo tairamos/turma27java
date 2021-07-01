@@ -1,32 +1,29 @@
 programa
 {
-
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
-
-		real d,r,s,a,b,c
-		escreva("DIgite o valor de A:")
-		leia(a)
-		escreva("DIgite o valor de B:")
-		leia(b)
-		escreva("DIgite o valor de C:")
-		leia(c)
-			r= (a+b)*(a+b)
-			s= (b+c)*(b+c)
-				d= ((r+s)/2)
-		escreva("O valor de D é igual a:"+d)
+		cadeia nome
+		inteiro idadeDias,idadeAnos,idadeMeses,dias
+	
+		
+		escreva("Digite o seu nome: ")
+		leia(nome)
+		escreva("Digite a sua idade em dias: ")
+		leia(idadeDias)
+		idadeAnos = idadeDias/365
+		idadeMeses = (idadeDias%365)/30
+		dias = (idadeDias%365)%30
+		escreva("Olá "+nome+",sua idade é de: "+dias+" dias\n"+idadeAnos+" anos\n"+idadeMeses+" meses")
 
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 314; 
+ * @POSICAO-CURSOR = 395; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
