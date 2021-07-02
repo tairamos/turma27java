@@ -8,18 +8,20 @@ public class Exercício3 {
 	
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		int tempoEvento;
+	double tempoEvento;
 		double horas;
-		int minutos;
+		double minutos;
+		double segundos;
 		
 		System.out.println("Digite o tempo do evento em segundos: ");
-		tempoEvento= leia.nextInt();
-		minutos = tempoEvento/60;
-		horas = minutos/60; 
+		tempoEvento = leia.nextDouble();
+		horas = tempoEvento/3600;
+	        minutos = (tempoEvento%3600)/60;
+	        segundos = (tempoEvento%3600)%60;
+
 		
 		
-		
-		System.out.println("O tempo do evento de "+tempoEvento+" segundos em horas e em minutos é de:\n"+minutos+" minutos\n"+horas+" hora(s)");
+		System.out.printf("O evento durou cerca de %d horas, %d minutos e %d segundos", (int)horas, (int)minutos, (int)segundos);
 
 	}
 
